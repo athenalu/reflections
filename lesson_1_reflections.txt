@@ -1,0 +1,39 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Fill in your answer here
+    diff 指出不同的程序行在哪里，这样可以发现错误。
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Fill in your answer here
+    从长远来看，保存历史记录有助于找到任何曾经编写的程序，从而提升效率。
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Fill in your answer here
+    手动提交的好处是频率适中，每一次的提交基本有逻辑的更新，缺点是有可能因为忘记及时提交，使得内容修改较多之后再最后一次性提交；自动提交的好处是不会忘记提交，缺点是每一次的修改都会自动提交，版本过多，不利于查询比较。
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Fill in your answer here
+    在GIT中编辑的项目通常会有多个需要同时追踪的文件，多个文件同时会比较高效；在google docs中，一般只有单个文件，不需要同时追踪多个文件。
+How can you use the commands git log and git diff to view the history of files?
+
+    Fill in your answer here
+    1、输入：cd 版本库\，打开版本库；2、输入：git log，显示所有版本；3、输入：git diff，比较需要比较的版本和上一个版本，查看修改的具体内容。注意显示可能会有重复。
+    
+How might using version control make you more confident to make changes that
+could break something?
+
+    Fill in your answer here
+使用git checkout检查最早出现bug的ID，使用git diff比对该ID和上一个ID，可以查找出错误的代码。
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
+    1、检查代码中的bug
+    2、运行不同版本的代码
