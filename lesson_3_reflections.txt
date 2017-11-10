@@ -8,17 +8,19 @@ Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
     Fill in your answer here
+如果自动更新，有可能会将我不希望更新的代码也进行了错误更新。
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
     Fill in your answer here
+Fork是从GitHub复制到GitHub；Clone是从电脑复制到电脑，或者从互联网复制到电脑；Branch是分支，在同一个代码库中。
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
     Fill in your answer here
-
+保持本地和远程分支同步，可以更高效地编辑代码，避免冲突。
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
