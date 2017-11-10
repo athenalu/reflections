@@ -21,10 +21,12 @@ stored locally?
 
     Fill in your answer here
 保持本地和远程分支同步，可以更高效地编辑代码，避免冲突。
+
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
     Fill in your answer here
+如果不使用Git 和Git Hub，需要等一个人编辑完再交给另一个人编辑，不能同步，不能合并。使用Git 和Git Hub效率比较高，更简单。
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
