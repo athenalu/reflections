@@ -32,3 +32,4 @@ When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
     Fill in your answer here
+如果其他人的修改跟自己的没有冲突，只需要更改自己的分支即可，不需要更改master；如果其他人的修改跟自己的产生冲突，则需要修改master。
